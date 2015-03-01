@@ -34,17 +34,22 @@ public class Main {
     }
 }
 */
-
+/*
     public static void main(String[] args) {
         Car car1 = new Car();
-        car1.run(10);
         car1.run(20);
         Car car2 = new Car();
         car2.run(15);
         car2.run(5);
+        System.out.println("Всего проехали: " + Car.stats());
+        System.out.println("Мы проехали " + car1.run(10));
         System.out.println("Пробег car1 " + car1.getProbeg());
         System.out.println("Пробег car2 " + car2.getProbeg());
         System.out.println("Всего проехали: " + Car.stats());
 
+    }
+  */
+    public static void main(String[] args){
+        Sandwich sandwich = new Sandwich();
     }
 }

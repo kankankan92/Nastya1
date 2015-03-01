@@ -5,9 +5,10 @@ public class Car {
     private int probeg;
     private static int totalProbeg;
 
-    public void run(int km){
+    public int run(int km){
         probeg = probeg + km;
-        totalProbeg = totalProbeg + probeg;
+        totalProbeg = totalProbeg + km;
+        return km;
     }
 
     public static int stats(){
